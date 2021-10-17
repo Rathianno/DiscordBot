@@ -14,10 +14,9 @@ bruh = 'https://www.youtube.com/watch?v=ufQ8FaJ08WU'
 
 client = commands.Bot(command_prefix='%')
 bot = commands.Bot(
-    '%', description='A bot created by Primo#5759, I play music and create counts!')
+    '%', description='A bot created by Primo#9050, I play music and create counts!')
+
 # debug
-
-
 @bot.command(name='tellem')
 async def tellem(ctx, *, arg):
     await ctx.message.channel.send('```ini\n ' + str(arg) + ' \n```')
