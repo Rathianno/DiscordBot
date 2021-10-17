@@ -9,7 +9,7 @@ import itertools
 from async_timeout import timeout
 from discord.ext import commands
 
-TOKEN = 'ODEyOTY5NDk2MTAwODY0MDMx.YDIe2A.f17LryzBTvbFynzPbUruUgpLNQ0'
+TOKEN = 'token'
 bruh = 'https://www.youtube.com/watch?v=ufQ8FaJ08WU'
 
 client = commands.Bot(command_prefix='%')
@@ -575,4 +575,4 @@ bot.add_cog(Counting(bot))
 async def on_ready():
     print('Logged in as:\n{0.user.name}\n{0.user.id}'.format(bot))
 
-bot.run('ODEyOTY5NDk2MTAwODY0MDMx.YDIe2A.f17LryzBTvbFynzPbUruUgpLNQ0')
+bot.run('token')
